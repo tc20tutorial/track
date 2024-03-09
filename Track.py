@@ -31,35 +31,6 @@ Cy = '\033[1;36m'
 Wh = '\033[1;37m'
 
 
-os.system('clear')
-
-print("""
-\033[1;31m   d8b
-   88P
-  d88
-  888   d8888b  d888b8b    88b  88bd88b
-  ?88  d8P' ?88d8P' ?88    88P  88P' ?8b
-   88b 88b  d8888b  ,88b  d88  d88   88P
-    88b`?8888P'`?88P'`88bd88' d88'   88b
-                      )88
-                     ,88P
-                 `?8888P
-""")
-def login():
-    username = input("\033[1;33mMasukkan username: ")
-    password = input("Masukkan password: ")
-
-    # Penggunaan hardcoded username dan password sebagai contoh
-    if username == "tc20" and password == "ZxNYNXeI":
-        print("Login berhasil!")
-    else:
-        print("Login gagal. Silakan coba lagi.")
-        login()  # Memanggil kembali fungsi login jika login gagal
-
-# Panggil fungsi login untuk memulai proses login
-login()
-
-
 
 # utilities
 
